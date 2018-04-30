@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CategoryEditor from './serega.js';
+import {CategoryEditor, CategoryList} from './serega.js';
 import './sasha.js';
 import './index.css';
 
@@ -9,6 +9,7 @@ class App extends React.Component {
         return(
             <div>Hello world!
                 <CategoryEditor />
+                <CategoryList />
             </div>
 
         );

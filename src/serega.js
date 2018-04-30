@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 console.log('serega js');
 
-export default class CategoryEditor extends React.Component {
+export class CategoryEditor extends React.Component {
 
     render(){
         return(
@@ -13,13 +13,13 @@ export default class CategoryEditor extends React.Component {
                     <option value="Income">Income</option>
                     <option value="Expense">Expense</option>
                 </select>
-                <button>Approve</button>
+                <button>Save Category</button>
             </div>
         );
     }
 }
 
-export default class CategoryList extends  React.Component {
+export class CategoryList extends  React.Component {
     render(){
         return (
           <div>
