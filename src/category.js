@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-console.log('serega js');
 
 export class Output extends React.Component{
     render(){
@@ -16,7 +15,6 @@ export class Output extends React.Component{
 }
 
 export class CategoryEditor extends React.Component {
-
     render(){
         return(
             <div className="cat-editor  ">
