@@ -3,8 +3,9 @@
   padding: 2px;
 }
 
-.output, .output{
+.output{
   text-align: center;
+  display: inline-block;
 }
 
 .output div, .cat-editor, .cat-list{

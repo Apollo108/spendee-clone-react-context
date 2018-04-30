@@ -6,10 +6,10 @@ export class Output extends React.Component{
     render(){
         return(
             <div className="output">
-                <div><span>Current Wallet Balance</span><br/><span> $ 100 </span></div>
-                <div><span>Total Period Change</span><br/><span> $100 </span></div>
-                <div><span>Total Period Expenses</span><br/><span> - $100 </span></div>
-                <div><span>Total Period Income</span><br/><span> + $100 </span></div>
+                <div>
+                    <p>{this.props.label}</p>
+                    <p>{this.props.sum}</p>
+                </div>
             </div>
         );
     }
