@@ -8,7 +8,10 @@ class App extends React.Component {
     render(){
         return(
             <div>
-                <Output/>
+                <Output label="ZXasxas" sum={200}/>
+                <Output label="ZXasxas" sum={200}/>
+                <Output label="ZXasxas" sum={200}/>
+                <Output label="ZXasxas" sum={200}/>
                 <CategoryEditor />
                 <CategoryList />
             </div>
