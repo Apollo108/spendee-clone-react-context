@@ -2,6 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 console.log('serega js');
 
+
+export class Output extends React.Component{
+    render(){
+        return(
+            <div>
+                <div><span>Current Wallet Balance</span><span> $ 100 </span></div>
+                <div><span>Total Period Change</span><span> $100 </span></div>
+                <div><span>Total Period Expenses</span><span> - $100 </span></div>
+                <div><span>Total Period Income</span><span> + $100 </span></div>
+            </div>
+        );
+    }
+}
+
 export class CategoryEditor extends React.Component {
 
     render(){
