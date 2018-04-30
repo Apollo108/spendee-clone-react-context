@@ -1,0 +1,25 @@
+* {
+  margin: 1px;
+  padding: 2px;
+}
+
+.output{
+  text-align: center;
+  display: inline-block;
+}
+
+.output div, .cat-editor, .cat-list{
+  display: inline-block;
+  border: 1px solid #777777;
+  border-radius: 3px;
+}
+
+.cat-list {
+  text-align: center;
+  display: table;
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
