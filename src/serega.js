@@ -18,3 +18,15 @@ export default class CategoryEditor extends React.Component {
         );
     }
 }
+
+export default class CategoryList extends  React.Component {
+    render(){
+        return (
+          <div>
+              <span>Name of cat</span>
+              <button>Edit</button>
+              <button>Delete</button>
+          </div>
+        );
+    }
+}
